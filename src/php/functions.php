@@ -70,7 +70,7 @@ function remove_menu_items() {
 	remove_menu_page('separator1'); // Первый разделитель
 	remove_menu_page('separator2'); // Второй разделитель
 	remove_menu_page('separator-last'); // Последний разделитель
-	remove_menu_page('edit.php?post_type=acf-field-group'); // Группы полей ACF
+	//remove_menu_page('edit.php?post_type=acf-field-group'); // Группы полей ACF
 }
 add_action('admin_menu', 'remove_menu_items');
 // Скрываем пункты подменю

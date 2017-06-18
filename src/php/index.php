@@ -44,10 +44,30 @@
 		<div class="attention__layout">
 			<div class="attention__title">Нас рекомендуют друзьям!</div>
 			<div class="attention__content">
-				<div class="attention__counter">439</div>
+				<div class="attention__counter">528</div>
 				<div class="attention__text">человек за прошлый месяц стали нашими клиентами</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="article-pekkaniska article-pekkaniska_style">
+	<div class="container article-pekkaniska__container">
+		<?php if (get_field('5557598425')): ?>
+		<div class="article-pekkaniska__title">
+			<h2 class="title"><?php the_field('5557598425'); ?></h2>
+		</div>
+		<?php endif; ?>
+		<div class="article-pekkaniska__text"><?php the_field('4559438293'); ?></div>
+	</div>
+</div>
+<div class="article-choose-lift article-choose-lift_style">
+	<div class="container article-choose-lift__container">
+		<?php if (get_field('4987496876')): ?>
+		<div class="article-choose-lift__title">
+			<h2 class="title"><?php the_field('4987496876'); ?></h2>
+		</div>
+		<?php endif; ?>
+		<div class="article-choose-lift__text"><?php the_field('2455664435'); ?></div>
 	</div>
 </div>
 <div class="nav-by-type nav-by-type_style">

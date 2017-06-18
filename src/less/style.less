@@ -366,7 +366,7 @@ strong,b {
 	color: @color_2;
 	text-transform: uppercase;
 }
-.banner__title, .advantages__title, .nav-by-type__title, .reviews__title, .article-about-us__title, .news__title, .goods__title {
+.banner__title, .advantages__title, .article-pekkaniska__title, .article-choose-lift__title, .nav-by-type__title, .reviews__title, .article-about-us__title, .news__title, .goods__title {
 	padding-left: 25px;
 	border-left: solid 5px @color_3;
 	@media (max-width: 768px) {
@@ -377,7 +377,7 @@ strong,b {
 		}
 	}
 }
-.advantages__title, .nav-by-type__title, .reviews__title, .article-about-us__title, .news__title, .goods__title {
+.advantages__title, .article-pekkaniska__title, .article-choose-lift__title, .nav-by-type__title, .reviews__title, .article-about-us__title, .news__title, .goods__title {
 	margin-bottom: @main_line_height * 3;
 	@media (max-width: 768px) {
 		& {
@@ -550,6 +550,21 @@ strong,b {
 		color: @color_1;
 	}
 }
+.article-pekkaniska {
+	&_style {
+		padding-top: @main_line_height * 3;
+		padding-bottom: @main_line_height * 3;
+	}
+}
+.article-choose-lift {
+	&_style {
+		padding-bottom: @main_line_height * 3;
+	}
+	&__container {
+		padding-top: @main_line_height * 3 - 1;
+		border-top: 1px solid @color_4;
+	}
+}
 .nav-by-type {
 	&__layout {
 		display: flex;
@@ -591,14 +606,12 @@ strong,b {
 			color: @color_3;
 		}
 	}
+	&__container {
+		padding-top: @main_line_height * 3 - 1;
+		border-top: 1px solid @color_4;
+	}
 	&_style {
-		padding-top: @main_line_height * 4;
 		padding-bottom: @main_line_height * 2;
-		@media (max-width: 768px) {
-			& {
-				padding-top: @main_line_height;
-			}
-		}
 	}
 }
 .nav-by-height {
